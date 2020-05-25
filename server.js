@@ -9,6 +9,10 @@ const handle = app.getRequestHandler();
 app.prepare().then(() => {
   const server = express();
 
+  server.get('/page2', (request, response) => {
+    return app.render(request, response, '/components/page2');
+  });
+
   server.get('*', (request, response) => {
     return handle(request, response);
   });
