@@ -2,11 +2,19 @@
   "name": "ssr2",
   "version": "1.0.0",
   "main": "index.js",
+  "scripts": {
+    "dev": "nodemon server.js"
+  },
+  "author": "Romulo L Castro Filho",
   "license": "MIT",
   "dependencies": {
+    "@zeit/next-css": "^1.0.1",
     "express": "^4.17.1",
     "next": "^9.4.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.4"
   }
 }

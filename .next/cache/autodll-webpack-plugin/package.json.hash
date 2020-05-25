@@ -1,0 +1,1 @@
+{"name":"ssr2","version":"1.0.0","main":"index.js","scripts":{"dev":"nodemon server.js"},"author":{"name":"Romulo L Castro Filho"},"license":"MIT","dependencies":{"express":"^4.17.1","next":"^9.4.2","react":"^16.13.1","react-dom":"^16.13.1"},"devDependencies":{"nodemon":"^2.0.4"},"readme":"ERROR: No README data found!","_id":"ssr2@1.0.0"}
