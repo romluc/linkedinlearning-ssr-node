@@ -1,33 +1,18 @@
-import React from 'react';
-
-// import { Container } from './styles';
+import './index.css';
+import Card from './Card';
 
 export default () => (
-  <>
-    <div className='container'>
-      <div>Hello Next + ExpressJS</div>
-      <p>How cool is styled-jsx?!</p>
+  <div className='App'>
+    <header className='App-header'>
+      <img src='/public/logo.png' className='static-logo' alt='logo' />
+    </header>
+    <div className='Grid'>
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
+      <Card />
     </div>
-
-    <style global jsx>{`
-      body {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        background: #0f2027; /* fallback for old browsers */
-        background: -webkit-linear-gradient(
-          to right,
-          #2c5364,
-          #203a43,
-          #0f2027
-        ); /* Chrome 10-25, Safari 5.1-6 */
-        background: linear-gradient(
-          to right,
-          #2c5364,
-          #203a43,
-          #0f2027
-        ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-      }
-    `}</style>
-  </>
+  </div>
 );
